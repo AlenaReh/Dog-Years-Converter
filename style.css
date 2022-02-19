@@ -1,0 +1,37 @@
+* {
+  font-family: "Macondo Swash Caps", cursive;
+  color: rgb(36, 24, 2);
+}
+.hero {
+  background-image: url("./images/background-with-dog-paw-print-and-bone-vector-1360415.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgb(36, 24, 2);
+}
+.title {
+  font-size: 3rem;
+  color: rgb(36, 24, 2) !important;
+}
+.h-2 {
+  font-size: 24px !important;
+}
+.form {
+  /* justify-content: center !important;
+    align-items: center !important;
+    align-content: center !important; */
+  opacity: 0.9;
+}
+
+.form-container {
+  /* display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap; */
+  z-index: 999;
+  padding: 160px 160px;
+}
+.button{
+    background-color: rgb(216, 183, 160);
+}

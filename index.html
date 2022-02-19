@@ -1,13 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dog Yaers Converter</title>
-</head>
-<body>
-    <script src="main.js"></script>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap" rel="stylesheet"> 
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/b8c6034701.js" crossorigin="anonymous"></script>
+    <!-- Bulma CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="hero is-fullheight is-warning">
+      <div class="hero-head pt-5 has-text-centered">
+        <p class="title">Dog Years Converter</p>
 
-</body>
+        <div class="form-container is-centered is-mobile">
+          <form class="form p-3 is-centered is-mobile">
+              <h2 class="h-2">Fill out the form to find out your Doggy Age</h2>
+            <div class="field p-1">
+              <p class="control has-icons-left has-icons-right">
+                <input id="name" class="input is-medium" type="name" placeholder="Name" />
+                <span class="icon is-small is-left">
+                  <i class="fas fa-solid fa-user"></i>
+                </span>
+              </p>
+            </div>
+            <div class="field p-1">
+              <p class="control has-icons-left">
+                <input id="age" class="input is-medium" type="number" placeholder="Age" />
+                <span class="icon is-small is-left">
+                  <i class="fas fa-solid fa-pen"></i>
+                </span>
+              </p>
+            </div>
+            <div class="field p-1">
+              <p class="control">
+                <button class="button is-medium" onclick="grabInput()">Submit</button>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
 </html>
